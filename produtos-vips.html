@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produtos VIPs – Mega Hair & Cuidados Capilares</title>
+  <meta name="description" content="Cabelos vietnamitas 100% naturais e produtos profissionais para tratamento capilar. Pronta entrega e envio para todo o Brasil. Consulte valores pelo WhatsApp." />
+  <!-- Open Graph / Social -->
+  <meta property="og:site_name" content="Produtos VIPs" />
+  <meta property="og:title" content="Produtos VIPs – Cabelos Vietnamitas Premium" />
+  <meta property="og:description" content="Cabelos vietnamitas 100% naturais e produtos profissionais para tratamento capilar. Pronta entrega e envio para todo o Brasil." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <!-- Replace with a hosted image URL -->
+  <meta property="og:image" content="/images/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Structured data (LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Produtos VIPs",
+    "image": "/images/og-image.jpg",
+    "telephone": "+5575991595124",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Serrinha",
+      "addressRegion": "BA",
+      "addressCountry": "BR"
+    },
+    "url": "https://seusite.exemplo",
+    "description": "Cabelos vietnamitas 100% naturais e produtos profissionais para tratamento capilar."
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg: #0b0b0f;
+      --card: #111114;
+      --accent-start: #6b21a8;
+      --accent-end: #3b0764;
+      --muted: #e5e5f7;
+      --muted-2: #a78bfa;
+      --cta-bg: #25d366;
+      --cta-text: #000;
+      --glass: rgba(107,33,168,0.18);
+      --pill-radius: 999px;
+      --max-width: 1100px;
+    }
+
+    html,body{height:100%;}
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--muted);
+      line-height: 1.6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    a{color:inherit}
+    a:focus{outline:3px solid #f0e6ff; outline-offset:3px}
+
+    /* Skip link */
+    .skip-link{
+      position: absolute;
+      left:-9999px;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+    .skip-link:focus{
+      left:1rem;
+      top:1rem;
+      width:auto;
+      height:auto;
+      background:#fff;
+      color:#000;
+      padding:0.5rem 0.75rem;
+      z-index:9999;
+      border-radius:6px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #000000, var(--accent-start));
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header h1 { margin-bottom: 0.5rem; font-size:2rem; }
+    header p.lead{ font-size:1.05rem; margin:0.25rem 0; color: #f3ecff; }
+
+    main{ max-width:var(--max-width); margin: auto; padding: 2rem 1rem; }
+
+    section{ margin-bottom:2rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: 0 10px 25px var(--glass);
+    }
+
+    .card h3 { margin-top: 0; color: #c084fc; }
+
+    .cta {
+      background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .btn-primary{
+      display:inline-block;
+      margin-top:1rem;
+      background:#000;
+      color:#c084fc;
+      padding:0.75rem 1.5rem;
+      border-radius:var(--pill-radius);
+      text-decoration:none;
+      font-weight:700;
+      border:1px solid var(--accent-start);
+    }
+    .btn-primary:focus{ box-shadow:0 0 0 4px rgba(192,132,252,0.14); }
+
+    footer {
+      background: #000000;
+      color: var(--muted-2);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    /* WhatsApp floating button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: var(--cta-bg);
+      color: #fff;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      z-index: 999;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border: none;
+    }
+    .badge {
+      display:inline-block;
+      background:var(--accent-end);
+      color:#e9d5ff;
+      padding:0.3rem 0.7rem;
+      border-radius:var(--pill-radius);
+      font-size:0.75rem;
+      margin-bottom:0.5rem;
+    }
+
+    img{ max-width:100%; display:block; border-radius:10px; }
+
+    /* small tweaks for better focus & readability */
+    @media (prefers-reduced-motion: reduce){
+      *{ animation-duration:0s !important; transition-duration:0s !important; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#maincontent" class="skip-link">Pular para o conteúdo</a>
+
+  <header role="banner">
+    <h1>Cabelos Vietnamitas Premium</h1>
+    <p class="lead">Cabelos 100% naturais • Qualidade VIP • Brilho e durabilidade incomparáveis</p>
+    <p><strong>📦 Pronta entrega e sob encomenda • Enviamos para todo Brasil</strong></p>
+    <a class="btn-primary" href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer" aria-label="Comprar pelo WhatsApp">Comprar pelo WhatsApp</a>
+  </header>
+
+  <main id="maincontent" role="main" aria-labelledby="catalogo-title">
+    <section>
+      <h2 id="catalogo-title">Catálogo de Vendas</h2>
+      <p style="max-width:750px;">Especialistas em <strong>cabelos vietnamitas premium</strong> e produtos profissionais para tratamento e higiene capilar. Ideal para quem busca <strong>luxo, naturalidade e alto padrão</strong>.</p>
+
+      <div class="grid" style="margin:2rem 0;">
+        <div class="card"><strong>✔ 100% Natural</strong></div>
+        <div class="card"><strong>✔ Alta durabilidade</strong></div>
+        <div class="card"><strong>✔ Qualidade VIP</strong></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="cabelos-title">
+      <h2 id="cabelos-title">Cabelos Vietnamitas</h2>
+      <div class="grid">
+        <article class="card" aria-labelledby="liso-title">
+          <div class="badge" aria-hidden="true">100% Vietnamita</div>
+          <div class="badge" aria-hidden="true">Cabelo Humano</div>
+          <!-- Use picture + srcset: replace paths with your optimized images -->
+          <picture>
+            <source srcset="/images/cabelo-vietnamita-liso-800.jpg 800w, /images/cabelo-vietnamita-liso-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" />
+            <img src="/images/cabelo-vietnamita-liso-800.jpg" alt="Cabelo Vietnamita Liso - mechas longas e brilhantes" loading="lazy" />
+          </picture>
+          <h3 id="liso-title">Cabelo Vietnamita Liso</h3>
+          <p><strong>Comprimentos:</strong> 40cm • 50cm • 60cm • 70cm</p>
+          <p><strong>Pesos:</strong> 100g • 150g • 200g</p>
+          <p>100% natural, fios grossos, alinhados e de alta durabilidade.</p>
+          <strong style="color:#c084fc;">🔥 Produto Premium • Consulte valor</strong>
+          <p><a href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer">Comprar no WhatsApp</a></p>
+        </article>
+
+        <article class="card" aria-labelledby="ondulado-title">
+          <h3 id="ondulado-title">Cabelo Vietnamita Ondulado</h3>
+          <p>Textura natural, brilho intenso e acabamento premium.</p>
+          <strong style="color:#c084fc;">🔥 Produto Premium • Consulte valor</strong>
+          <p><a href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer">Comprar no WhatsApp</a></p>
+        </article>
+
+        <article class="card" aria-labelledby="cacheado-title">
+          <h3 id="cacheado-title">Cabelo Vietnamita Cacheado</h3>
+          <p>Cachos definidos, resistentes e com movimento natural.</p>
+          <strong style="color:#c084fc;">🔥 Produto Premium • Consulte valor</strong>
+          <p><a href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer">Comprar no WhatsApp</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="tratamento-title">
+      <h2 id="tratamento-title">Produtos para Tratamento Capilar</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Máscara Hidratante Profissional</h3>
+          <p>Hidratação profunda, maciez e recuperação dos fios.</p>
+          <strong style="color:#c084fc;">🔥 Produto Premium • Consulte valor</strong>
+          <p><a href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer">Comprar no WhatsApp</a></p>
+        </div>
+        <div class="card">
+          <h3>Óleo Capilar Nutritivo</h3>
+          <p>Brilho, proteção térmica e redução do frizz.</p>
+          <strong style="color:#c084fc;">🔥 Produto Premium • Consulte valor</strong>
+          <p><a href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer">Comprar no WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#0f0f17;padding:1.25rem;border-radius:12px;">
+      <h2>Aplicação Profissional Disponível</h2>
+      <p>Indicamos a melhor técnica para cada tipo de cabelo, garantindo segurança, conforto e resultado natural.</p>
+      <div class="grid">
+        <div class="card"><h3>No Italiano</h3><p>Alta durabilidade e acabamento discreto.</p></div>
+        <div class="card"><h3>Ponto Americano</h3><p>Resistente e confortável para o dia a dia.</p></div>
+        <div class="card"><h3>Tic Tac</h3><p>Praticidade e versatilidade para mudanças rápidas.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Por que escolher a Produtos VIPs?</h2>
+      <div class="grid">
+        <div class="card"><h3>Qualidade Garantida</h3><p>Cabelos selecionados com padrão premium e controle de qualidade.</p></div>
+        <div class="card"><h3>Atendimento Personalizado</h3><p>Indicação do melhor cabelo conforme seu objetivo e estilo.</p></div>
+        <div class="card"><h3>Confiança e Credibilidade</h3><p>Clientes satisfeitas e resultados reais.</p></div>
+      </div>
+    </section>
+
+    <section style="background:#0f0f17;padding:1.25rem;border-radius:12px;">
+      <h2>Clientes Satisfeitas</h2>
+      <div class="grid">
+        <div class="card"><p>“Resultado perfeito e extremamente natural. Qualidade impecável.”</p></div>
+        <div class="card"><p>“Cabelo macio, não embaraça e dura muito. Recomendo!”</p></div>
+        <div class="card"><p>“Atendimento rápido e produto premium de verdade.”</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Perguntas Frequentes</h2>
+      <div class="grid">
+        <div class="card"><h3>O cabelo é realmente 100% humano?</h3><p>Sim. Trabalhamos apenas com cabelos vietnamitas 100% humanos, sem mistura.</p></div>
+        <div class="card"><h3>Posso lavar, pranchar e modelar?</h3><p>Sim. O cabelo aceita química, calor e modelagens normalmente.</p></div>
+        <div class="card"><h3>Qual a durabilidade?</h3><p>Com os cuidados corretos, pode durar de 1 a 3 anos.</p></div>
+        <div class="card"><h3>Vocês enviam para todo Brasil?</h3><p>Sim. Enviamos com segurança para todo o Brasil.</p></div>
+      </div>
+    </section>
+
+    <div class="cta" role="region" aria-labelledby="cta-title">
+      <h2 id="cta-title">Garanta Seu Cabelo Premium Agora</h2>
+      <p>Estoque limitado • Atendimento rápido • Pagamento facilitado</p>
+      <a class="btn-primary" href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer" aria-label="Quero comprar agora pelo WhatsApp">Quero comprar agora</a>
+    </div>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2026 • Produtos VIPs • Serrinha - BA • <a href="tel:+5575991595124">WhatsApp (75) 99159-5124</a></p>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="whatsapp-float" href="https://wa.me/5575991595124" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no WhatsApp">
+    <!-- You can replace emoji with inline SVG icon -->
+    💬 WhatsApp
+  </a>
+</body>
+</html>
